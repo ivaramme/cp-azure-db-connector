@@ -11,4 +11,3 @@ RUN echo "===> Updating system ..." \
 
 RUN confluent-hub install confluentinc/kafka-connect-azure-sql-dw:1.0.2 --no-prompt
 
-COPY conf/connect-distributed.properties /etc/conf/connect-distributed.properties
